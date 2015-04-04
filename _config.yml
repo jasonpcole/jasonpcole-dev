@@ -1,0 +1,109 @@
+# =============================================
+# Build config
+# =============================================
+
+root:             _gh_pages
+dest:             <%= site.root %>
+assets:           <%= site.dest %>/assets
+
+# Data
+data:             data/*.{json,yml}
+
+# Templates
+templates:        templates
+includes:         <%= site.templates %>/includes/*.hbs
+layouts:          <%= site.templates %>/layouts
+layout:           default.hbs
+
+# Extensions
+helpers:
+  - <%= site.templates %>/helpers/*.js
+  - handlebars-helper-br
+  - handlebars-helper-ghbtns
+  - handlebars-helper-isactive
+  - handlebars-helper-prettify
+  - handlebars-helper-slugify
+  - handlebars-helper-twitter
+  - handlebars-helpers
+
+plugins:
+  - assemble-contrib-anchors
+  - assemble-contrib-wordcount
+  - assemble-contrib-toc
+
+# Theme
+theme:            theme
+components:       <%= site.theme %>/components
+
+
+# =============================================
+# Project metadata
+# =============================================
+
+# Assemble metadata.
+assemble:
+  latest:         <%= pkg.version %>
+
+# GitHub
+username:         jasonpcole
+name:             <%= pkg.name %>
+download:
+  source:         <%= pkg.homepage %>/archive/master.zip
+
+
+# =============================================
+# Site metadata
+# =============================================
+
+brand:            Jason Cole
+title:            Jason Cole - Front End Dev - Portfolio
+lead:             I write codes. Front-end codes.
+
+version:          <%= pkg.version %>
+description:      <%= pkg.description %>
+license:
+  type:           <%= pkg.licenses[0].type %>
+  url:            <%= pkg.licenses[0].url %>
+
+
+# Links
+url:
+  repo:           <%= pkg.homepage %>
+  bugs:           <%= pkg.bugs.url %>?state=open
+  ghpages:        https://<%= site.username %>.github.io/<%= pkg.name %>/
+
+  # Site
+  domain:         http://jasonpcole.github.io/
+  about:          <%= site.url.domain %>/about/
+  blog:           <%= site.url.domain %>/blog/
+
+
+# SEO/SEM
+ga:
+  id:             false
+  domain:         jasonpcole.github.io
+  siteid:         false
+  # Google Tags (see: https://www.google.com/tagmanager/)
+  tags:           false
+
+# Comments
+disqus:
+  enabled:        false
+  shortname:      <%= pkg.name %>
+
+# Social
+social:
+  twitter:        false
+  facebook:       false
+  linkedin:       false
+  gplus:          false
+  hn:             false
+  google:         false
+
+# Sharing
+sharing:
+  twitter:        false
+  facebook:       false
+  gplus:          false
+  hn:             false
+  google:         false

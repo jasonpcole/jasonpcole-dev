@@ -1,0 +1,16 @@
+<section id="skills">
+	<div class="container">
+		{{#with skills}}
+		<h1>{{title}}</h1>
+		<p>{{text}}</p>
+			{{#each groups}}
+				<ul class="list-inline">
+					<li>{{type}} :</li>
+					{{#each list}}
+						<li><a class="btn btn-default" href="{{link}}" role="button" data-toggle="tooltip" title="{{text}}">{{skill}}</a></li>
+					{{/each}}
+				</ul>
+			{{/each}}
+		{{/with}}
+	</div>
+</section>

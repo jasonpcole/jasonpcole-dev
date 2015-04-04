@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{> head }}
+  </head>
+  <body>
+    {{#if production}}
+      {{> tags }} {{! Google Tags. See https://www.google.com/tagmanager/}}
+    {{/if}}
+
+    <!-- Navigation component -->
+    {{> nav }}
+
+    <!-- Subhead component -->
+    {{> subhead }}
+
+    <div class="container bs-docs-container">
+      {{> body }}
+    </div>
+
+    <!-- Footer -->
+    {{> footer }}
+
+    <!-- JS and analytics only. -->
+    {{> javascripts }}
+  </body>
+</html>

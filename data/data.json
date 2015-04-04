@@ -1,0 +1,559 @@
+{
+  "description": {
+    "author-name": {
+      "first": "Jason",
+      "middle": "Paul",
+      "last": "Cole"
+    },
+    "title": "Front-End Web Developer",
+    "text": "Problem solving, self-starter with over a decade of experience writing, debugging and publishing front--end codes. I bring the base of knowledge that I acquired during those years and now apply those techniques using modern tools. I’ve worked on small teams building and maintaining e-commerce sites, and I’ve also pushed code for individual features on projects for major clients that saw serious traffic."
+  },
+  "navigation": {
+    "sections": [
+      "Skills",
+      "History",
+      "Future",
+      "Contact"
+    ]
+  },
+  "contact": {
+    "email": "veil.the@gmail.com",
+    "phone": "213.278.6527"
+  },
+  "links": {
+    "github": "https://github.com/jasonpcole",
+    "portfolio": "http://jasonpcole.github.io",
+    "blog": "http://jasonpcoleblog.github.io",
+    "jsfiddle": "http://jsfiddle.net/user/TheVeil/fiddles/",
+    "linkedin": "www.linkedin.com/in/jasonpaulcole"
+  },
+  "skills": {
+    "title": "Skills",
+    "text": "",
+    "groups": [
+      {
+        "type": "Markup",
+        "list": [
+          {
+            "skill": "HTML 4 & 5",
+            "link": "http://en.wikipedia.org/wiki/HTML",
+            "text": "HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages. It is written in the form of HTML elements consisting of tags enclosed in angle brackets (like <html>). HTML tags most commonly come in pairs like <h1> and </h1>, although some tags represent empty elements and so are unpaired, for example <img>. The first tag in a pair is the start tag, and the second tag is the end tag (they are also called opening tags and closing tags)."
+          },
+          {
+            "skill": "XML",
+            "link": "http://en.wikipedia.org/wiki/XML",
+            "text": "Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format which is both human-readable and machine-readable. It is defined by the W3C's XML 1.0 Specification and by several other related specifications, all of which are free open standards."
+          },
+          {
+            "skill": "Markdown",
+            "link": "http://en.wikipedia.org/wiki/Markdown",
+            "text": "Markdown is a markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor."
+          },
+          {
+            "skill": "SVG",
+            "link": "http://en.wikipedia.org/wiki/Scalable_Vector_Graphics",
+            "text": "Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999."
+          }
+        ]
+      },
+      {
+        "type": "Styling",
+        "list": [
+          {
+            "skill": "CSS 2 & 3",
+            "link": "http://en.wikipedia.org/wiki/Cascading_Style_Sheets",
+            "text": "Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language. While most often used to change the style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any kind of XML document, including plain XML, SVG and XUL. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications."
+          },
+          {
+            "skill": "LESS",
+            "link": "http://lesscss.org/",
+            "text": "Less (sometimes stylized as LESS) is a dynamic stylesheet language that can be compiled into Cascading Style Sheets (CSS), or can run on the client-side and server-side. Designed by Alexis Sellier, Less is influenced by Sass and has influenced the newer \"SCSS\" syntax of Sass, which adapted its CSS-like block formatting syntax. Less is open-source. Its first version was written in Ruby, however in the later versions, use of Ruby has been deprecated and replaced by JavaScript. The indented syntax of Less is a nested metalanguage, as valid CSS is valid Less code with the same semantics. Less provides the following mechanisms: variables, nesting, mixins, operators and functions; the main difference between Less and other CSS precompilers being that Less allows real-time compilation via less.js by the browser."
+          },
+          {
+            "skill": "Sass",
+            "link": "http://sass-lang.com/",
+            "text": "Sass (Syntactically Awesome Stylesheets) is a stylesheet language that is interpreted into Cascading Style Sheets (CSS). After its initial versions, Sass was extended with SassScript, a simple scripting language used in Sass files. Sass consists of two syntaxes. The original syntax, called \"the indented syntax\", uses a syntax similar to Haml. It uses indentation to separate code blocks and newline characters to separate rules. The newer syntax, \"SCSS\", uses block formatting like that of CSS. It uses braces to denote code blocks and semicolons to separate lines within a block. The indented syntax and SCSS files are traditionally given the extensions .sass and .scss respectively."
+          },
+          {
+            "skill": "Stylus",
+            "link": "http://learnboost.github.io/stylus/",
+            "text": "Stylus is a dynamic stylesheet language, its design influenced by Sass and LESS. It's regarded as the third most used CSS preprocessor syntax."
+          }
+        ]
+      },
+      {
+        "type": "Scripting",
+        "list": [
+          {
+            "skill": "Javascript",
+            "link": "http://en.wikipedia.org/wiki/JavaScript",
+            "text": "JavaScript is a dynamic computer programming language. It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed. It is also used in server-side network programming with runtime environments such as Node.js, game development and the creation of desktop and mobile applications. With the rise of the single-page web app and JavaScript-heavy sites, it is increasingly being used as a compile target for source-to-source compilers from both dynamic languages and static languages. In particular, Emscripten and highly optimised JIT compilers, in tandem with asm.js that is friendly to AOT compilers like OdinMonkey, have enabled C and C++ programs to be compiled into JavaScript and execute at near-native speeds, making JavaScript be considered the \"assembly language of the web\", according to its creator and others."
+          },
+          {
+            "skill": "jQuery",
+            "link": "https://jquery.com/",
+            "text": "jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. jQuery is the most popular JavaScript library in use today. jQuery is free, open-source software licensed under the MIT License. jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications. jQuery also provides capabilities for developers to create plug-ins on top of the JavaScript library. This enables developers to create abstractions for low-level interaction and animation, advanced effects and high-level, theme-able widgets. The modular approach to the jQuery library allows the creation of powerful dynamic web pages and web applications."
+          },
+          {
+            "skill": "Backbone",
+            "link": "http://backbonejs.org/",
+            "text": "Backbone.js is a JavaScript library with a RESTful JSON interface and is based on the model–view–presenter (MVP) application design paradigm. Backbone is known for being lightweight, as its only dependency is on one JavaScript library, Underscore.js. It is designed for developing single-page web applications, and for keeping various parts of web applications (e.g. multiple clients and the server) synchronized. Backbone was created by Jeremy Ashkenas, who is also known for CoffeeScript."
+          },
+          {
+            "skill": "Thorax",
+            "link": "http://thoraxjs.org/",
+            "text": "An opinionated, battle tested Backbone + Handlebars framework to build large scale web applications. Thorax makes an opinionated decision to use Handlebars as its templating solution. Some of the patterns found in Marionette are found in Thorax as well, exposed as template helpers. Thorax was created by Ryan Eastridge and Kevin Decker to create Walmart’s mobile web application."
+          },
+          {
+            "skill": "Underscore",
+            "link": "http://underscorejs.org/",
+            "text": "Underscore.js is a JavaScript library which provides utility functions for common programming tasks. It is comparable to features provided by Prototype.js and the Ruby language, but opts for a functional programming design instead of extending object prototypes. The documentation refers to Underscore.js as \"the tie to go along with jQuery's tux, and Backbone.js's suspenders.\" Underscore.js was created by Jeremy Ashkenas, who is also known for Backbone.js and CoffeeScript."
+          },
+          {
+            "skill":  "Node",
+            "link": "https://nodejs.org/",
+            "text": "Node.js is an open source, cross-platform runtime environment for server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, Linux, FreeBSD, NonStop and IBM i. Node.js provides an event-driven architecture and a non-blocking I/O API that optimizes an application's throughput and scalability. These technologies are commonly used for real-time web applications."
+          },
+          {
+            "skill": "Handlebars",
+            "link": "http://handlebarsjs.com/",
+            "text": "Handlebars is a semantic web template system, started by Yehuda Katz in 2010. Handlebars.js is a superset of Mustache, and can render Mustache templates in addition to Handlebars templates. While Mustache is a logicless templating language, Handlebars adds extensibility and minimal logic, such as #if, #unless, #with, and #each helpers."
+          },
+          {
+            "skill": "Modernizr",
+            "link": "http://modernizr.com/",
+            "text": "Modernizr is a JavaScript library which is designed to detect HTML5 and CSS3 features in various browsers. Since the specifications for both HTML5 and CSS3 are only partially implemented or nonexistent in many browsers, it can be difficult to determine which techniques are available for use in rendering a page, and when it is necessary to avoid using a feature or to load a workaround such as a shim to emulate the feature. Modernizr aims to provide this feature detection in a complete and standardized manner."
+          }
+        ]
+      },
+      {
+        "type": "Code Versioning",
+        "list": [
+          {
+            "skill":"Git",
+            "link": "https://github.com/",
+            "text": "Git is a distributed revision control system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows. Git was initially designed and developed by Linus Torvalds for Linux kernel development in 2005, and has since become the most widely adopted version control system for software development."
+          },
+          {
+            "skill": "SVN",
+            "link": "http://en.wikipedia.org/wiki/Apache_Subversion",
+            "text": "Apache Subversion (often abbreviated SVN, after the command name svn) is a software versioning and revision control system distributed as free software under the Apache License. Developers use Subversion to maintain current and historical versions of files such as source code, web pages, and documentation. Its goal is to be a mostly compatible successor to the widely used Concurrent Versions System (CVS)."
+          }
+        ]
+      },
+      {
+        "type": "Frameworks",
+        "list": [
+          {
+            "skill": "Twitter Bootstrap",
+            "link": "http://getbootstrap.com/",
+            "text": "Bootstrap is a free and open-source collection of tools for creating websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. As of March 2015, it was the most-starred project on GitHub, with over 78,000 stars and more than 30,000 forks."
+          },
+          {
+            "skill": "Zurb Foundation",
+            "link": "http://foundation.zurb.com/",
+            "text": "Foundation is a responsive front-end framework. Foundation provides a responsive grid and plenty of HTML and CSS UI components, templates, and code snippets, including typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Foundation is maintained by zurb.com and is an open source project."
+          },
+          {
+            "skill": "jQuery UI",
+            "link": "https://jqueryui.com/",
+            "text": "jQuery UI is a collection of GUI widgets, animated visual effects, and themes implemented with jQuery (a JavaScript library), Cascading Style Sheets, and HTML."
+          },
+          {
+            "skill": "jQuery Mobile",
+            "link": "https://jquerymobile.com/",
+            "text": "jQuery Mobile is a touch-optimized web framework (also known as a mobile framework), more specifically a JavaScript library, currently being developed by the jQuery project team. The development focuses on creating a framework compatible with a wide variety of smartphones and tablet computers, made necessary by the growing but heterogeneous tablet and smartphone market. The jQuery Mobile framework is compatible with other mobile app frameworks and platforms such as PhoneGap, Worklight and more."
+          }
+        ]
+      },
+      {
+        "type": "Tools",
+        "list": [
+          {
+            "skill": "Grunt",
+            "link": "http://gruntjs.com/",
+            "text": "The JavaScript Task Runner, used for automating repetitive tasks like minification, compilation, unit testing, linting, etc."
+          },
+          {
+            "skill": "Gulp",
+            "link": "http://gulpjs.com/",
+            "text": "Similar to Grunt, Gulp prefers code over configuration, keeping things simple and making complex tasks manageable."
+          },
+          {
+            "skill": "Bower",
+            "link": "http://bower.io/",
+            "text": "Web package manager, Bower works by fetching and installing packages from all over, taking care of hunting, finding, downloading, and saving the stuff you’re looking for. Bower keeps track of these packages in a manifest file, bower.json. How you use packages is up to you. Bower provides hooks to facilitate using packages in your tools and workflows."
+          },
+          {
+            "skill": "Yeoman",
+            "link": "http://yeoman.io/",
+            "text": "Yeoman helps you kickstart new projects, prescribing best practices and tools to help you stay productive."
+          }
+        ]
+      },
+      {
+        "type": "CMS",
+        "list": [
+          {
+            "skill": "Wordpress",
+            "link": "https://wordpress.org/",
+            "text": "WordPress is a free and open-source blogging tool and a content management system (CMS) based on PHP and MySQL. Features include a plugin architecture and a template system. WordPress was used by more than 23.3% of the top 10 million websites as of January 2015. WordPress is the most popular blogging system in use on the Web, at more than 60 million websites."
+          },
+          {
+            "skill": "Drupal",
+            "link": "https://www.drupal.org/",
+            "text": "Drupal is a free and open-source content-management framework written in PHP and distributed under the GNU General Public License. It is used as a back-end framework for at least 2.1% of all Web sites worldwide ranging from personal blogs to corporate, political, and government sites including WhiteHouse.gov and data.gov.uk. It is also used for knowledge management and business collaboration."
+          },
+          {
+            "skill": "Tumblr",
+            "link": "https://www.tumblr.com",
+            "text": "Tumblr (stylized in its logo as tumblr.) is a microblogging platform and social networking website founded by David Karp and owned by Yahoo! Inc. The service allows users to post multimedia and other content to a short-form blog. Users can follow other users' blogs, as well as make their blogs private. Much of the website's features are accessed from the \"dashboard\" interface, where the option to post content and posts of followed blogs appear."
+          },
+          {
+            "skill": "Codeigniter",
+            "link": "http://www.codeigniter.com/",
+            "text": "CodeIgniter is an open source rapid development web application framework, for use in building dynamic web sites with PHP. CodeIgniter is loosely based on the popular Model-View-Controller development pattern. While controller classes are a necessary part of development under CodeIgniter, models and views are optional."
+          },
+          {
+            "skill": "Typo3",
+            "link": "http://typo3.org/",
+            "text": "TYPO3 is a free and open source web content management system based on PHP. It is released under the GNU General Public License. It can run on several web servers, such as Apache or IIS, on top of many operating systems, among them Linux, Microsoft Windows, FreeBSD, Mac OS X and OS/2."
+          }
+        ]
+      }
+    ]
+  },
+  "job-history": {
+    "title": "History",
+    "text": "This is a history of all the companies I've worked with since I started writing code.",
+    "list": [
+      {
+        "company": "SONY",
+        "job-title": "Front End Web Developer",
+        "starting-date": "March 2014",
+        "ending-date": "September 2014",
+        "type": "contract",
+        "projects": [
+          {
+            "title": "The Queen Latifah Show",
+            "link": "http://www.queenlatifah.com",
+            "languages": [
+              "HTML 5",
+              "CSS 3",
+              "Javascript",
+              "PHP"
+            ],
+            "text": "A Wordpress based site, with ZURB Foundation for styling and functionality. Developed new features (header, landing page templates) and fixed bugs, with a focus on a smooth responsive experience. Set up the site on Github for code versioning and worked on a new deployment process using Grunt for code packaging.",
+            "tile": "t-queenlatifahshow.jpg",
+            "images": ["l-queenlatifahshow.jpg"]
+          }
+        ]
+      },
+      {
+        "company": "Acquity Group",
+        "job-title": "Front End Web Developer",
+        "starting-date": "October 2013",
+        "ending-date": "March 2014",
+        "type": "contract",
+        "projects": [
+          {
+            "title": "IHS re-design",
+            "link": "Offline",
+            "languages": [
+              "HTML 5",
+              "Sass",
+              "Javascript"
+            ],
+            "text": "A corporate site built using Twitter Bootstrap 3 for layout and functionality with SASS (Compass) for styling. Worked with designers to translate business requirements into site comps that leveraged Bootstrap’s UI components and Javascript plugins. Worked with another developer to complete front-end code, using Git for versioning.",
+            "tile": "t-ihs.png",
+            "images": ["l-ihs.jpg"]
+          },
+          {
+            "title": "Walmart.com - Home page",
+            "link": "http://www.walmart.com/",
+            "languages": [
+              "HTML 5",
+              "CSS 3",
+              "Javascript"
+            ],
+            "text": "The Home page team is responsible for the Home/Local Store/Trending pages, and had a backlog of bugs and features that I was tasked with. The bugs list consisted of Markup/Styling issues, with a couple of features that involved Javascript/jQuery.",
+            "tile": "",
+            "images": [""]
+          },
+          {
+            "title": "Walmart.com re-design - User-generated content",
+            "link": "http://www.walmart.com/",
+            "languages": [
+              "Handlebars",
+              "Stylus",
+              "Backbone",
+              "Thorax"
+            ],
+            "text": "I worked with the team involved in the site re-design, and was tasked with the User-generated content sections (reviews/Q&A’s/comments). The features were developed on top of a Backbone/Thorax app, with Handlebars for templating and Stylus as our CSS pre-processor. We used Grunt for code packaging and to spin up a server for local development. This project was coordinated between multiple teams of 8-10 developers, so we used Git for code versioning.",
+            "tile": "",
+            "images": [""]
+          }
+        ]
+      },
+      {
+        "company": "Guthy-Renker",
+        "job-title": "Front End Web Developer",
+        "starting-date": "March 2013",
+        "ending-date": "August 2013",
+        "type": "contract",
+        "projects": [
+          {
+            "title": "Marketing & Testing - Landing pages",
+            "link": "http://www.guthy-renker.com/",
+            "languages": [
+              "HTML 5",
+              "CSS 3",
+              "Javascript"
+            ],
+            "text": "My main responsibility was developing landing pages for all of their product sites. These pages were then A/B tested using Adobe Test and Target. To maintain a rapid release schedule, all page options were initially built using plain HTML/CSS/Javascript. Once tested, the winning version was then pulled into the Demandware ecommerce platform, and coded using the proprietary scripting language, DMS Script.",
+            "tile": "",
+            "images": [""]
+          }
+        ]
+      },
+      {
+        "company": "Team One USA",
+        "job-title": "Front End Web Developer",
+        "starting-date": "November 2012",
+        "ending-date": "March 2013",
+        "type": "contract",
+        "projects": [
+          {
+            "title": "Lexus “Check-In For Charity” Facebook Application",
+            "link": "http://teamone-usa.com/work/lexus-check-in-for-charity/",
+            "languages": [
+              "HTML 5",
+              "CSS 3",
+              "Javascript"
+            ],
+            "text": "The Facebook App was built to promote Lexus’ December Sales Event, and help raise money for the Boys and Girls Clubs of America by donating money for every check-in a user made within the app. We used the Codeigniter framework, and I built the views on-top of Twitter Bootstrap. The check-in data was pulled in from the Facebook Places & Foursquare APIs, and we also used the Bing Maps API to create a custom map to visualize the check-ins. The promotion was a huge success and met its goal just over a week after being launched.",
+            "tile": "",
+            "images": [""]
+          },
+          {
+            "title": "Lexus.com Performance page",
+            "link": "http://www.lexus.com/performance",
+            "languages": [
+              "HTML 5",
+              "CSS 3",
+              "Javascript"
+            ],
+            "text": "The Performance page was being updated as part of a full site redesign. I wrote the markup to hook into the responsive framework that Team One had built in-house. It’s powered by CSS media queries and Javascript initialized by break-point. The JS was written using the modular design pattern so that any functionality may be inherited if desired. All videos are served via the Brightcove API. I was also tasked with Omniture integration that tracks visitor behavior granularly with custom event handlers for all user actions.",
+            "tile": "",
+            "images": [""]
+          }
+        ]
+      },
+      {
+        "company": "BeachMint",
+        "job-title": "Front End Web Developer",
+        "starting-date": "December 2010",
+        "ending-date": "October 2012",
+        "type": "contract",
+        "projects": [
+          {
+            "title": "Marketing Development",
+            "link": "https://www.crunchbase.com/organization/beachmint",
+            "languages": [
+              "HTML 5",
+              "CSS 3",
+              "Javascript",
+              "PHP"
+            ],
+            "text": "I was responsible for developing the company corporate website, a static HTML5 site. I developed the company blog themes, using Wordpress and eventually Tumblr. I worked with the email team, coding HTML/CSS email templates and setting up the campaigns in MailChimp, Responsys, or ExactTarget. I also developed landing pages, which were A/B tested using a system built in-house for the marketing department.",
+            "tile": "",
+            "images": [""]
+          }
+        ]
+      },
+      {
+        "company": "Product Partners, LLC",
+        "job-title": "Front End Web Developer",
+        "starting-date": "September 2010",
+        "ending-date": "December 2010",
+        "type": "contract",
+        "projects": [
+          {
+            "title": "UI/UX Developer",
+            "link": "http://www.beachbody.com/",
+            "languages": [
+              "HTML 5",
+              "CSS 3",
+              "Javascript"
+            ],
+            "text": "I was responsible for updating company websites using Marketlive CMS. I also worked with product managers and back-end developers to plan out and build BeachBody.co.uk. All development progress/milestones were tracked using Daptiv PM Software and SVN was used for code versioning.",
+            "tile": "",
+            "images": [""]
+          }
+        ]
+      },
+      {
+        "company": "Global Fitness Media",
+        "job-title": "Front End Web Developer",
+        "starting-date": "July 2010",
+        "ending-date": "September 2010",
+        "type": "contract",
+        "projects": [
+          {
+            "title": "Ruby Front-End Integration",
+            "link": "http://www.fitorbit.com/",
+            "languages": [
+              "HTML 5",
+              "CSS 3",
+              "Javascript",
+              "Ruby on Rails"
+            ],
+            "text": "I was responsible for updating the company website with new features and UI elements. These were coded using HTML/CSS/Javascript, with Ruby on Rails on the back-end. I worked with product managers and back-end developers to plan out a new version of Fitorbit.com and I was the front-end dev on a co-branded version of Fitorbit.com.",
+            "tile": "",
+            "images": [""]
+          }
+        ]
+      },
+      {
+        "company": "Hangout Ind.",
+        "job-title": "Front End Web Developer",
+        "starting-date": "March 2010",
+        "ending-date": "July 2010",
+        "type": "contract",
+        "projects": [
+          {
+            "title": "Fashion City - Facebook game",
+            "link": "http://www.hangout.net/",
+            "languages": [
+              "HTML",
+              "CSS",
+              "Javascript",
+              "Unity3D"
+            ],
+            "text": "I spent the majority of my time refactoring and improving the JS framework that was being used to connect our game with the Facebook API. Javascript was used to pass data back/forth from our MySQL database and the Unity game engine, in addition to handling Open Graph data transfer. I was also tasked with setting up A/B testing for landing pages and managed the company blog (WordPress) and message board (vBulletin).",
+            "tile": "",
+            "images": [""]
+          }
+        ]
+      },
+      {
+        "company": "Warner Bros.",
+        "job-title": "Front End Web Developer",
+        "starting-date": "November 2009",
+        "ending-date": "March 2010",
+        "type": "contract",
+        "projects": [
+          {
+            "title": "KidsWB e-commerce",
+            "link": "http://familyentertainment.kidswb.com/",
+            "languages": [
+              "HTML",
+              "CSS",
+              "Javascript",
+              "Flash"
+            ],
+            "text": "I developed page templates for Kids WB e-commerce websites, converting PSDs to standards compliant, cross-browser compatible XHTML/CSS. I also coded interactive page elements with jQuery, including product carousels and modals used to display various bits of information. ",
+            "tile": "",
+            "images": [""]
+          }
+        ]
+      },
+      {
+        "company": "TotalBeauty.com",
+        "job-title": "Front End Web Developer",
+        "starting-date": "November 2007",
+        "ending-date": "November 2009",
+        "type": "contract",
+        "projects": [
+          {
+            "title": "UI/UX Development and Site Maintainence",
+            "link": "http://www.totalbeauty.com",
+            "languages": [
+              "HTML",
+              "CSS",
+              "Javascript",
+              "PHP"
+            ],
+            "text": "Company website page and feature updates. In addition to intermittent, total site-wide re-designs. Used a combination of XHTML/CSS/Javascript(jQuery) to bring design comps from flat PSDs to fully functioning, pixel-perfect web pages. CMS Template development and page updates using the Typo3 framework. Developed the UI and front-end code for a modular product search tool, allowing users to search for products by many different attributes and with a focus on range over specific value. Worked with the back-end development team to tie the form together with the product database. Coded AJAX-powered content syndication widgets, bringing our name and product information database to thousands of beauty blogger websites, extending our company reach. Streamlined recurring tasks by creating bulletproof markup and CSS templates for use by the front-end team, while working with the design team to create standards and guidelines for designs, to minimize the amount of back and forth between teams. Improved page load time across the site by trimming down the amount of network calls per page. Re-factored markup/CSS, added image lazy-loading, and image sprites where necessary. Re-wrote Javascript site-wide using the quickest DOM traversal techniques possible. Minor back-end PHP development, such as contact form processing and file upload from a web form. Which were then stored on the server in a MYSQL database.",
+            "tile": "",
+            "images": [""]
+          }
+        ]
+      },
+      {
+        "company": "Shoes.com",
+        "job-title": "Front End Web Developer",
+        "starting-date": "July 2007",
+        "ending-date": "November 2007",
+        "type": "contract",
+        "projects": [
+          {
+            "title": "UI/UX, Marketing Dev and a Suprise",
+            "link": "http://www.shoes.com",
+            "languages": [
+              "HTML",
+              "CSS"
+            ],
+            "text": "Created HTML/CSS email templates for email marketing. Updated web content for homegrown CMS, utilizing XHTML/CSS. Company unexpectedly moved to St. Louis (HQ) in Oct.",
+            "tile": "",
+            "images": [""]
+          }
+        ]
+      },
+      {
+        "company": "Niki Media Group",
+        "job-title": "Webmaster/Project Manager",
+        "starting-date": "February 2007",
+        "ending-date": "July 2007",
+        "type": "permanent",
+        "projects": [
+          {
+            "title": "Project Management, Design and Development",
+            "link": "http://www.nikimedia.com/about_us.html",
+            "languages": [
+              "HTML",
+              "CSS",
+              "Javscript",
+              "Flash",
+              "PHP"
+            ],
+            "text": "Managed 4 employees, overseeing design and coding for customer websites. Designed customer websites and marketing material, utilizing Adobe Photoshop and Illustrator. Developed customer websites. Utilizing XHTML/CSS/Javascript, and some minor PHP. Managed SEO campaigns, creating keyword/phrase lists that were implemented and monitored utilizing the SEO campaign management software, Web CEO. Maintained and updated company websites. Customer service.",
+            "tile": "",
+            "images": [""]
+          }
+        ]
+      },
+      {
+        "company": "DiskFaktory",
+        "job-title": "Webmaster",
+        "starting-date": "December 2005",
+        "ending-date": "Feruary 2007",
+        "type": "permanent",
+        "projects": [
+          {
+            "title": "Design/Development anc Search Engine Optimization",
+            "link": "http://www.diskfaktory.com/",
+            "languages": [
+              "HTML",
+              "CSS",
+              "Javscript",
+              "Flash",
+              "PHP"
+            ],
+            "text": "Designed, developed, and updated company websites. Managed SEO campaigns, utilizing SEO campaign management software, Web CEO. Designed company and affiliate print materials (business cards, posters, flyers, booklets), worked with print team to oversee production of final products. Designed and built custom Flash advertisement banners. Wrote technical articles for the purpose of adding relevant, keyword rich content to the DiskFaktory site. The articles were also posted on a number of different article repositories, creating valuable back-links.",
+            "tile": "",
+            "images": [""]
+          }
+        ]
+      }
+    ]
+  },
+  "future": {
+    "title": "Future",
+    "text": "These are the projects I am currently working on, in addition to the subjects that I am interested in and will address in the future..",
+    "list": [
+      "Front-End Developer Toolkit",
+      "Grunt Init Template"
+    ]
+  }
+}

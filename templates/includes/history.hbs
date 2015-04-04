@@ -1,0 +1,33 @@
+---
+defaults:
+	tile-path: _gh_pages/assets/images/projects/
+---
+<section id="history">
+	<div class="container">
+		<h1>{{job-history.title}}</h1>
+		<p>{{job-history.text}}</p>
+	</div>
+	<div class="container">
+		{{#each job-history.list}}
+			<div class="col-md-4">
+				<h3>{{company}}</h3>
+				<div class="row">
+					<p class="col-md-6">{{job-title}}</p>
+					<p class="col-md-6">
+						<small>{{starting-date}} to {{ending-date}}</small>
+					</p>
+				</div>
+				<div>
+					<div class="show">
+						<img src="/_gh_pages/assets/images/projects/{{projects.0.tile}}">
+					</div>
+					<div class="hide">
+						{{#each projects}}
+							<p><strong>{{title}}</strong>: {{text}}</p>
+						{{/each}}
+					</div>
+				</div>
+			</div>
+		{{/each}}
+	</div>
+</section>

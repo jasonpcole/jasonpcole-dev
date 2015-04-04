@@ -1,0 +1,11 @@
+<footer class="bs-footer" role="contentinfo">
+	<div class="container">
+		<ul class="footer-links">
+			<li>Currently v{{ site.assemble.latest }}</li>
+			{{#each navigation.sections}}
+				<li class="muted">&middot;</li>
+				<li>{{this}}</li>
+			{{/each}}
+		</ul>
+	</div>
+</footer>
