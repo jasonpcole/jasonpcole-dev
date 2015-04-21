@@ -265,8 +265,8 @@
               "Javascript"
             ],
             "text": "A corporate site built using Twitter Bootstrap 3 for layout and functionality with SASS (Compass) for styling. Worked with designers to translate business requirements into site comps that leveraged Bootstrap’s UI components and Javascript plugins. Worked with another developer to complete front-end code, using Git for versioning.",
-            "tile": "t-ihs.png",
-            "images": ["l-ihs.jpg"]
+            "tile": "",
+            "images": [""]
           },
           {
             "title": "Walmart.com - Home page",
@@ -552,8 +552,16 @@
     "title": "Future",
     "text": "These are the projects I am currently working on, in addition to the subjects that I am interested in and will address in the future..",
     "list": [
-      "Front-End Developer Toolkit",
-      "Grunt Init Template"
+      {
+        "title": "Front-End Developer Toolkit",
+        "text": "",
+        "link": "https://github.com/jasonpcole/front-end-dev-toolkit"
+      },
+      {
+        "title": "Grunt Init Template",
+        "text": "",
+        "link": ""
+      }
     ]
   }
 }

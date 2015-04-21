@@ -4,7 +4,10 @@
 		<p>{{future.text}}</p>
 		<ul>
 			{{#each future.list}}
-				<li>{{this}}</li>
+				<li>
+					<h4><a href="{{link}}" title="{{title}}" target="_blank">{{title}}</a></h4>
+					<p>{{text}}</p>
+				</li>
 			{{/each}}
 		</ul>
 	</div>
